@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.money-detail-container {
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 767px) {
+  .money-detail-container {
+    padding: 1.5rem 2rem;
+  }
+}
+
+.balance {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+
+.income {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+
+.expenses {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+
+.money-type-image {
+  height: 40px;
+  width: 40px;
+  margin-right: 1rem;
+}
+
+.type-name {
+  color: #7e858e;
+  font-size: 0.6rem;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.type-amount {
+  color: #1e293b;
+  font-size: 1rem;
+  margin: 0px;
+  font-weight: bold;
+}
